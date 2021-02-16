@@ -1,0 +1,16 @@
+# Ignore vendor
+/vendor/
+
+# Dependencies are managed by composer, so ignore them (including Drupal core)
+/web/*
+!/web/modules
+/web/modules/*
+!/web/modules/custom
+!/web/themes
+/web/themes/*
+!/web/themes/my_bartik
+
+# Ignore drupal scaffold
+/.gitattributes
+/.editorconfig
+

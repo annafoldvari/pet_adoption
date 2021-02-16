@@ -1,0 +1,22 @@
+/**
+ * @file
+ * Styles for Bartik's highlighted component.
+ */
+
+.has-featured-top .region-highlighted {
+  background: #f0f0f0;
+  background: rgba(30, 50, 10, 0.08);
+}
+.region-highlighted {
+  margin: 0 15px;
+}
+
+.region-highlighted {
+  background-image: url(../../../../themes/bartik/images/puppies.jpg);
+  background-position: top center;
+  width: 100vw;
+  height: 56vh;
+  margin: 0;
+  background-size: cover;
+  padding-top :100px;
+}
