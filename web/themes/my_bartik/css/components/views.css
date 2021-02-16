@@ -43,6 +43,10 @@
   width: 50%;
 }
 
+.blog-wrap img {
+  height: min-content;
+}
+
 .views-field-body {
   margin-bottom: 50px;
 }
